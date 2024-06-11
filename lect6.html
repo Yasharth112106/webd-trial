@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- comment shortcut :ctrl + / -->
+<!-- multiple selection: keep pressing alt & click at all the places -->
+<!-- directly jump to next line: ctrl + enter -->
+<!-- copy text below: alt + shift -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Trial6</title>
+</head>
+
+<body>
+    <!--para1-->
+    <div class="para1">
+        <p style="background-color: burlywood;">hello there this is a paragraph</p>
+        <a href="https://www.google.com">click here</a>
+        <ul style="background-color: aqua;">
+            <li style="background-color: chocolate;">ram</li>
+            <li>shyam</li>
+            <li>manoj</li>
+        </ul>
+    </div>
+
+    <!--para2-->
+    <div class="para2">
+        <p>this is the second paragraph
+        </p>
+        <p>sdhfhdskjfh</p>
+        <span>this is a span</span>
+        <a href=""></a>
+        <ul>
+            <li>katu</li>
+            <li>matu</li>
+            <li>raju</li>
+        </ul>
+    </div>
+
+
+    <!-- table -->
+    <div class="table1">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Student Id</th>
+                    <th>Student Name</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>1250</td>
+                    <td>Ash</td>
+                    <td>Male</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>1296</td>
+                    <td>Joe</td>
+                    <td>Female</td>
+                    <td>19</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="table2">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Full Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>1000</td>
+                    <td rowspan="2">Company Founder</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>1200</td>
+                    <!-- <td></td> -->
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Expense:</td>
+                    <!-- <td></td>
+                <td></td> -->
+                    <td>2200</td>
+                    <!-- <td></td> -->
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <br>
+    <div class="forms">
+        <fieldset>
+            <legend>Student details</legend>
+            <form>
+                <label for="name">Enter your name</label>
+                <input type="text" id="name">
+                <br>
+                <label for="dob">Enter your DOB</label>
+                <input type="date" id="dob">
+                <br>
+                <label for="">Select your hobbies:</label>
+                <br>
+                <label for="cricket">Cricket</label>
+                <input type="checkbox" name="cricket" id="cricket">
+
+                <label for="hockey">Hockey</label>
+                <input type="checkbox" name="hockey" id="hockey">
+
+                <label for="football">Football</label>
+                <input type="checkbox" name="football" id="football">
+                <br>
+                <label for="pass">Enter your Password:</label>
+                <input type="password" name="pass" id="pass">
+                <br>
+                <label for="address">Enter your address:</label>
+                <textarea name="address" id="address" cols="30" rows="10"
+                    placeholder="Enter your address here"></textarea>
+                <br>
+                <input type="submit" value="Submit Now">
+            </form>
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>
